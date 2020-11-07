@@ -31,6 +31,7 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 Download the dataset from https://www.kaggle.com/c/cs-t0828-2020-hw1/data
+and put training_data folder and testing_data folder into this repo
 
 
 ### Prepare Images
@@ -51,6 +52,9 @@ car_dataset
   |  +- .
   |  +- .
   +- test
+  |  +- 0
+  |  +- 1
+  |  +- 2
   |  +- .
   |  +- .
   |  +- .
