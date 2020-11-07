@@ -3,7 +3,7 @@ HW1 for NCTU CS Selected Topics in Visual Recognition using Deep Learning
 
 16,185 car images belonging to 196 classes (train: 11,185, test:5000)
 
-all the code are save in the hw1.ipynb notebook.
+all the code are save in the [hw1.ipynb](https://github.com/sweiichen/car-brand-classification/blob/main/hw1.ipynb) notebook.
 
 
 ## Hardware
@@ -37,7 +37,7 @@ Download the dataset from https://www.kaggle.com/c/cs-t0828-2020-hw1/data
 Because the original dataset provided, only give the csv file to show the class label of each image.
 I make them be imagefolder which could use the pytorch ImageFolder function.
 using the python code in notebook to mount the images in their label_index folder.
-you need to use the training_label.csv file in our repo to run the code.
+you need to use the [training_label.csv](https://github.com/sweiichen/car-brand-classification/blob/main/training_label.csv) file in our repo to run the code.
 "car_dataset" folder are empty of images befor you run the code.
 you could see the detail in the jupyter note book code.
 After make images to imagefolder that torchvision.datasets.ImageFolder() can use, the data directory is structured as:
@@ -89,7 +89,7 @@ optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
 
 ## Inference
 Follow to the note book comment and predict the class of the test image from the kaggle dataset. 
-- To inference, classes.txt file will be used to map the label_indext to car brand.
+- To inference, [classes.txt](https://github.com/sweiichen/car-brand-classification/blob/main/classes.txt) file will be used to map the label_indext to car brand.
 
 
 
