@@ -14,10 +14,9 @@ The following specs were used to create the original solution.
 ## Reproducing Submission
 To reproduct my submission without retrainig, do the following steps:
 1. [Installation](#installation)
-2. [Download Official Image](#download-official-image)
-3. [Make RGBY Images](#make-rgby-images) for official.
-4. [Download Pretrained models](#pretrained-models)
-5. [Inference](#inference)
+2. [Dataset Preparation](#dataset-preparation)
+3. [Training](#training)
+4. [Inference](#inference)
 
 ## Installation
 All requirements should be detailed in  requirements.txt. 
